@@ -72,8 +72,7 @@ export default function Resume() {
       {/* Action Buttons */}
       <div className="mt-8 flex flex-wrap gap-4">
         {/* Replace with your actual resume link */}
-        <GlassBtn href="/<img src={`${import.meta.env.BASE_URL}avatar.png`} />
-resume.pdf">
+        <GlassBtn href={`${import.meta.env.BASE_URL}Mariam_Aser_Resume.pdf`}>
           Download PDF
         </GlassBtn>
 
