@@ -43,7 +43,7 @@ export default function Personal() {
               handle="javicodes"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="/avatar.png"
+              avatarUrl={`${import.meta.env.BASE_URL}avatar.png`}
               showUserInfo={false}
               enableTilt={true}
               enableMobileTilt={false}

@@ -72,7 +72,8 @@ export default function Resume() {
       {/* Action Buttons */}
       <div className="mt-8 flex flex-wrap gap-4">
         {/* Replace with your actual resume link */}
-        <GlassBtn href="/public/resume.pdf">
+        <GlassBtn href="/<img src={`${import.meta.env.BASE_URL}avatar.png`} />
+resume.pdf">
           Download PDF
         </GlassBtn>
 
@@ -102,7 +103,8 @@ export default function Resume() {
             {/* Placeholder box — replace with embed if you want */}
             <div className="mt-6 flex justify-center">
               <img
-                src="/public/resume.png"
+                src="<img src={`${import.meta.env.BASE_URL}avatar.png`} />
+resume.png"
                 alt="Resume"
                 className="w-full max-w-4xl h-auto rounded-xl border border-white/10"
               />
